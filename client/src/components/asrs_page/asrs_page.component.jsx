@@ -105,11 +105,6 @@ function ASRSPage() {
     <div className="asrs_page">
       <Navbarr />
 
-      {/* <br></br>
-      <br></br>
-      <br></br>
-      <br></br> */}
-
       <div className="box">
         <h1 className="heading_asrs">ASRS SCORE</h1>
         {AsrsQues.map((element) => {
