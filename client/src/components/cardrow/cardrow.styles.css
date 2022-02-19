@@ -1,0 +1,19 @@
+body {
+  overflow-x: hidden;
+}
+.row {
+  display: flex;
+  /* background-color: red; */
+  justify-content: space-evenly;
+  margin-left: -2%;
+  margin-top: 6%;
+}
+.cards {
+  flex-direction: column;
+  /* flex:; */
+  width: 500px;
+  height: 400px;
+  display: flex;
+  border-radius: 0%;
+  border: 0px;
+}

@@ -1,0 +1,17 @@
+.result_page {
+  /* background-image: url("../../assets//2.jpg");
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-size: contain; */
+}
+
+.result_table {
+  display: flex;
+  width: 40% !important;
+  margin: auto;
+  margin-top: 3%;
+  background-color: white;
+  opacity: 0.9;
+  font-family: "Montserrat", sans-serif;
+}

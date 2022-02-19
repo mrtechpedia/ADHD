@@ -1,0 +1,81 @@
+tr {
+  margin: 10px;
+  width: 700px;
+  font-size: 15px;
+}
+.a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+table {
+  margin: auto;
+  margin-top: 7%;
+}
+.head {
+  text-align: center;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+select {
+  width: 200px;
+  height: 30px;
+  border: 0ch;
+  border-radius: 30px;
+}
+
+.page {
+  background-image: url("../../assets//2.webp");
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-size: contain;
+}
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #ff4b1f 0%,
+    #ff9068 51%,
+    #ff4b1f 100%
+  );
+}
+
+.btn-grad {
+  /* margin: 10px; */
+  padding: 10px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  /* box-shadow: 0 0 20px #eee; */
+  border-radius: 20px;
+  display: block;
+  border: 0;
+  margin: auto;
+  font-weight: bold;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.form {
+  width: 400px;
+  background-color: rgb(24, 24, 24);
+  background-image: url("../../assets//33.webp");
+
+  background-size: cover;
+  margin-left: 15%;
+  /* margin-top: 8%; */
+  /* padding-top: 6%; */
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  padding-bottom: 30px;
+  border-radius: 0px;
+}

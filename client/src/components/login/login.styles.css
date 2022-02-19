@@ -1,0 +1,11 @@
+.pagelogin {
+  background-image: url("../../assets//2.webp");
+  width: 100vw;
+  height: 100vh;
+  background-size: contain;
+  color: white;
+  background-repeat: no-repeat;
+}
+
+.Login {
+}

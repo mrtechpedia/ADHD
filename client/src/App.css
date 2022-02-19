@@ -1,0 +1,46 @@
+body{
+    text-align: left;
+    font-size: 14px;
+    margin: 0px;
+    font-family: 'Montserrat',
+    sans-serif;
+
+  
+}
+
+b{
+    font-style: italic;
+    font-size: 30px;
+}
+.navbar {
+      font-family: 'Montserrat',
+      sans-serif;
+        font-size: larger;
+}
+ 
+
+.me-auto {
+    margin-left: 700px;
+    /* width: 700px; */
+    /* margin-left: auto; */
+  padding: 1px;
+  display: flex;
+  font-size: 15px;
+
+}
+
+.c{
+    justify-content: space-between;
+}
+
+
+
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+
+    /* box-shadow: none; */
+
+    /* the rest of your styling */
+}

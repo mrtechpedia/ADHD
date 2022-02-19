@@ -1,0 +1,23 @@
+.icon {
+  margin: auto;
+  color: white;
+  font-size: 40px;
+}
+.cards {
+  text-align: center;
+  color: white;
+  background-color: #6d6d6d;
+  /* background-color: white; */
+}
+.heading {
+  font-weight: bold;
+  font-size: 20px;
+}
+.button {
+  background-color: rgb(250, 226, 93);
+  background-color: #fff9b6;
+  border-radius: 0%;
+  color: rgb(75, 75, 75);
+  border: 0px;
+  width: 170px;
+}

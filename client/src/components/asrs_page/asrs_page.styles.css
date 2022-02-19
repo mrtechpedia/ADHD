@@ -1,0 +1,59 @@
+.asrs_page {
+  background-image: url("../../assets/hey.webp");
+  background-size: 1600px 700px;
+  /* background-color: rgb(255, 228, 233); */
+  height: 100%;
+  width: 100vw;
+  /* position: fixed; */
+  font-size: 17px;
+}
+
+.box {
+  width: 800px;
+  height: auto;
+  /* background-color: rgb(255, 228, 233);   */
+  background-color: white;
+  margin: auto;
+  /* margin-top: 130px; */
+  position: relative;
+  opacity: 90%;
+}
+
+.heading_asrs {
+  margin: auto;
+  text-align: center;
+  padding-top: 2%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding-bottom: 2%;
+}
+
+.tablee {
+  width: 90%;
+  /* border: 1px solid grey; */
+  margin: auto;
+  margin-top: 5%;
+  /* font-size: 15px; */
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  /* font-size: 12px; */
+}
+
+.tdd {
+  /* border: 1px red solid ; */
+  padding: 15px 76px 10px 76px;
+  margin: auto;
+}
+
+.q {
+  font-size: 14.5px;
+  font-family: Montserrat;
+  /* font-weight: bolder; */
+}
+
+.buttt_asrs {
+  margin: auto;
+  margin-left: 40%;
+  width: 150px;
+  background-color: rgb(0, 0, 0);
+}

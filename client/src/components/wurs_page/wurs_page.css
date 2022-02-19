@@ -1,0 +1,55 @@
+.wurs_page {
+  background-image: url("../../assets/hey.webp");
+  background-size: 1400px 700px;
+  /* background-color: rgb(255, 228, 233); */
+  height: 100%;
+  width: 100vw;
+  /* position: fixed; */
+}
+.box {
+  width: 800px;
+  height: auto;
+  /* background-color: rgb(255, 228, 233);   */
+  background-color: white;
+  margin: auto;
+  /* margin-top: 130px; */
+  position: relative;
+  opacity: 90%;
+}
+.heading_wurs {
+  margin: auto;
+  text-align: center;
+  padding-top: 2%;
+  background-color: black;
+  color: white;
+  padding-bottom: 2%;
+}
+.tablee {
+  width: 90%;
+  /* border: 1px solid grey; */
+  margin: auto;
+  margin-top: 5%;
+  font-size: 15px;
+  color: rgb(29, 29, 29);
+  font-weight: bold;
+}
+.q {
+  font-size: 14.5px;
+  font-family: Montserrat;
+  /* font-weight: bolder; */
+}
+.tdd {
+  /* border: 1px red solid ; */
+  padding: 15px 76px 10px 76px;
+  margin: auto;
+}
+
+.chk {
+  transform: scale(1.2);
+}
+
+.buttt {
+  margin: auto;
+  margin-left: 40%;
+  width: 150px;
+}

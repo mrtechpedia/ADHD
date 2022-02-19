@@ -1,0 +1,44 @@
+import "./App.css";
+
+import { Navbar, Nav, Container } from "react-bootstrap";
+
+import CardRow from "./components/cardrow/cardrow.component";
+
+import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router-dom";
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/">
+          <div className="App">
+            <></>
+            <br></br>
+
+            <Navbar
+              bg="light"
+              variant="light"
+              navbar-fixed-top
+              className="navbar"
+            >
+              <Container>
+                <Navbar.Brand href="#home">ADHD</Navbar.Brand>
+                <Nav className="me-auto">
+                  <Nav.Link href="#home">About</Nav.Link>
+                  <Nav.Link href="#features">Understanding ADHD</Nav.Link>
+                  <Nav.Link href="#pricing">Education and Advocacy</Nav.Link>
+                  <Nav.Link href="#pricing">Get Support</Nav.Link>
+                  <Nav.Link href="#pricing">Get Involved</Nav.Link>
+                  <Nav.Link href="#pricing">Contact ADHD experts</Nav.Link>
+                </Nav>
+              </Container>
+            </Navbar>
+            <CardRow />
+          </div>
+        </Route>
+        <Route path="/wurs"></Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App;

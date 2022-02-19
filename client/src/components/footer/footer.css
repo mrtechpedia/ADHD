@@ -1,0 +1,109 @@
+#black {
+  width: 100vw;
+  height: 250px;
+  background-color: black;
+
+  margin: auto;
+  margin-top: 5px;
+}
+
+#child1 {
+  /*border:1px solid red;*/
+  float: left;
+  width: 500px;
+  height: inherit;
+}
+
+#child2 {
+  /*border:1px solid red;*/
+  float: left;
+  width: 240px;
+  height: inherit;
+}
+
+#child3 {
+  /*border:1px solid red;*/
+  float: right;
+  width: 240px;
+  height: inherit;
+}
+
+#gc1 {
+  width: inherit;
+  height: 50px;
+  /*    border:1px solid white;*/
+  color: white;
+  font-size: 20px;
+  font-family: Lane Narrow;
+  margin-top: 20px;
+  margin-left: 45px;
+  font-weight: bold;
+}
+
+#gc2 {
+  width: 400px;
+  height: 150px;
+  /*    border:1px solid white;*/
+  color: darkgray;
+  font-size: 12px;
+  font-family: Lane Narrow;
+  margin-left: 45px;
+}
+
+#gc3 {
+  width: inherit;
+  height: 50px;
+  /*    border:1px solid white;*/
+  color: whitesmoke;
+  font-size: 15px;
+  font-family: Lane Narrow;
+  margin-top: 20px;
+  margin-left: 45px;
+  font-weight: bold;
+}
+
+#gc4 {
+  width: auto;
+  height: auto;
+  border-bottom: 1px solid darkgray;
+  color: darkgray;
+  font-size: 12px;
+  font-family: Lane Narrow;
+  margin-left: 45px;
+  line-height: 25px;
+}
+
+#gc5 {
+  width: inherit;
+  height: 50px;
+  /*    border:1px solid white;*/
+  color: white;
+  font-size: 15px;
+  font-family: Lane Narrow;
+  margin-top: 20px;
+  margin-left: 45px;
+  font-weight: bold;
+}
+
+#gc6 {
+  width: auto;
+  height: auto;
+  margin-left: 45px;
+  line-height: 25px;
+}
+
+table {
+  color: darkgray;
+  font-size: 12px;
+  font-family: Lane Narrow;
+}
+
+.logo:hover {
+  transform: scale(1.5);
+}
+
+/*
+hr{
+    color:white;
+}
+*/
